@@ -92,7 +92,7 @@ export function CoachPanel({ advice, isLoading = false }: CoachPanelProps) {
         ) : (
           <div className="text-center py-8 text-muted-foreground">
             <MessageSquare className="h-12 w-12 mx-auto mb-4 opacity-50" />
-            <p>Upload a gameplay clip or screenshot to get personalized coaching advice!</p>
+            <p>Waiting for coaching analysis...</p>
           </div>
         )}
       </CardContent>
