@@ -39,7 +39,7 @@ export function CoachPanel({ advice, isLoading = false }: CoachPanelProps) {
           <div className="relative">
             <img 
               src={coachMascot} 
-              alt="Coach Echo" 
+              alt="Soren" 
               className="w-16 h-16 rounded-full ring-2 ring-primary/50 shadow-gaming"
             />
             {!isLoading && (
@@ -49,7 +49,7 @@ export function CoachPanel({ advice, isLoading = false }: CoachPanelProps) {
           <div className="flex-1">
             <CardTitle className="flex items-center gap-2 text-primary">
               <MessageSquare className="h-5 w-5" />
-              Coach Echo Says:
+              Soren Says:
             </CardTitle>
             <p className="text-sm text-muted-foreground">AI-powered coaching analysis</p>
           </div>
